@@ -7,7 +7,7 @@ TypeScript helps us write safe code. It checks types and shows errors early mean
 
 **Why `any` is a Type Safety Hole?**
 
-So what `any` means is no type checking. TypeScript will allow everything and that kind of like the old Javascript.Typescript was created to check type but if it's not checking the type then it cannot show error and so we cannot fix the code before **Runtime**. so that Big Safety Hole in Typescript.
+So, what `any` means is no type checking. TypeScript will allow everything and that kind of like the old Javascript.Typescript was created to check type but if it's not checking the type then it cannot show error and so we cannot fix the code before **Runtime**. so that Big Safety Hole in Typescript.
 
 **An Example**
 ```js
@@ -23,7 +23,7 @@ name.toUpperCase(); // no warring or error but it will crash in runtime.
 So the `any` break the safety or the real meaning of the Typescript.
 
 
-**Why unknown is Safer?**
+**Why `unknown` is Safer?**
 
 That's where `unknown` comes means is safer than `any`.
 what `unknown` really means is it does not know the data type but you must check the type before using it.
